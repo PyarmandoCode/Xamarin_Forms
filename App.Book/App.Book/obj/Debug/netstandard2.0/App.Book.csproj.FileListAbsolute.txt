@@ -1,0 +1,17 @@
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Book\App.Book\bin\Debug\netstandard2.0\App.Book.deps.json
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Book\App.Book\bin\Debug\netstandard2.0\App.Book.dll
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Book\App.Book\bin\Debug\netstandard2.0\App.Book.pdb
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Book\App.Book\obj\Debug\netstandard2.0\App.Book.csproj.AssemblyReference.cache
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Book\App.Book\obj\Debug\netstandard2.0\App.Book.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Book\App.Book\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Book\App.Book\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Book\App.Book\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Book\App.Book\obj\Debug\netstandard2.0\App.Book.AssemblyInfoInputs.cache
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Book\App.Book\obj\Debug\netstandard2.0\App.Book.AssemblyInfo.cs
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Book\App.Book\obj\Debug\netstandard2.0\App.Book.csproj.CoreCompileInputs.cache
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Book\App.Book\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Book\App.Book\obj\Debug\netstandard2.0\App.Book.dll
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Book\App.Book\obj\Debug\netstandard2.0\refint\App.Book.dll
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Book\App.Book\obj\Debug\netstandard2.0\App.Book.pdb
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Book\App.Book\obj\Debug\netstandard2.0\ref\App.Book.dll
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Book\App.Book\obj\Debug\netstandard2.0\Views\RoomPage.xaml.g.cs

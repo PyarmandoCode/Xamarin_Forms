@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App.Cambista.Vistas.Principal"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout Background="#FEE689" >
+            <Label Text="Cambista Jhohan!"
+                   FontSize="40"
+                   FontAttributes="Bold"
+                   Margin="0,20,0,0"
+                HorizontalOptions="Center" />
+            <Frame VerticalOptions="CenterAndExpand"
+                   CornerRadius="20"
+                   Margin="40,20,40,20"
+                   HasShadow="False">
+                <StackLayout VerticalOptions="Center"
+                             Spacing="20"
+                             >
+                    <Image Source="https://res.cloudinary.com/dream-music/image/upload/v1657506666/Xamarin/logo_ty3wjf.png" />
+                    <Label Text="Soles a Dolares" 
+                           FontAttributes="Bold"
+                           FontSize="32"
+                           HorizontalOptions="Center"
+                           />
+                    <Button Text="Iniciar" 
+                            FontSize="Medium"
+                            BackgroundColor="#FDE080"
+                            CornerRadius="10"
+                            FontAttributes="Bold"
+                            TextTransform="None"
+                            x:Name="btniniciar"
+                            Clicked="btniniciar_Clicked"
+                            
+                            />
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

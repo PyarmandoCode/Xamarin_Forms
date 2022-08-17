@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App.Book.Views.RoomPage">
+    <ContentPage.Content>
+        <Grid RowDefinitions="Auto,*"
+              ColumnDefinitions="*,*">
+            <!-- 1 - Imagen de Fondo -->
+            <Image Grid.Row="0"
+                   Grid.RowSpan="2"
+                   Grid.ColumnSpan="2"
+                   Opacity="0.7"
+                   Aspect="AspectFill"
+                   Source="Room" />
+            <!-- 1 - Boton Atras -->
+            <Button  Grid.Column="0"
+                     Grid.Row="0"
+                     ImageSource="Arrow"
+                     Margin="25,30,0,0"
+                     VerticalOptions="Start"
+                     HorizontalOptions="Start"
+                     WidthRequest="40"
+                     HeightRequest="40"
+                     BackgroundColor="White"
+                     CornerRadius="13" />
+            <!-- 1 - Boton Buscar Libros -->
+            <Button  Grid.Column="1"
+                     Grid.Row="0"
+                     CornerRadius="10"
+                     Margin="0,30,25,0"
+                     ImageSource="Tour"
+                     BackgroundColor="#fc695a"
+                     Text="Busqueda de Libros"
+                     TextColor="White"
+                     FontAttributes="Italic"
+                     FontSize="9"
+                     HeightRequest="50"
+                     WidthRequest="170"
+                     VerticalOptions="Start"
+                     HorizontalOptions="EndAndExpand" />
+            <Frame  Grid.Column="0"
+                    Grid.Row="1"
+                    Grid.ColumnSpan="2"
+                    HasShadow="False"
+                    VerticalOptions="EndAndExpand"
+                    Margin="30,50"
+                    Padding="20,0,0,20"
+                    CornerRadius="40"
+                    HeightRequest="480"
+                    BackgroundColor="AliceBlue"
+                    
+                    >
+                <ScrollView HorizontalScrollBarVisibility="Never">
+                <Grid VerticalOptions="Center"
+                      RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto"
+                      ColumnDefinitions="Auto,*"
+                      Padding="10,0,15,0">
+                    <!-- 1 - Logo -->
+                    <Image Grid.Column="1"
+                           Grid.Row="0"
+                           Source="Band"
+                           VerticalOptions="Start"
+                           HorizontalOptions="End"
+                           HeightRequest="40"
+                           Margin="0,-7,20,0" />
+                    <!-- 2 - Direccion Web -->
+                    <Label  Grid.Column="0"
+                            Grid.Row="1"
+                            Grid.ColumnSpan="2"
+                            Text="www.libros.com"
+                            FontSize="14"
+                            FontAttributes="Bold"
+                            TextColor="#a09fb8"
+                            VerticalOptions="Start" />
+                    <!-- 2 - Titulo -->
+                    <Label  Grid.Column="0"
+                            Grid.ColumnSpan="2"
+                            Grid.Row="2"
+                            Text="Programacion Movil"
+                            FontSize="20"
+                            FontAttributes="Bold"
+                            TextColor="#353f5f" />
+                    <!-- 2 - Descripcion -->
+                    <Label  Grid.Column="0"
+                            Grid.Row="3"
+                            Grid.ColumnSpan="2"
+                            Text="Desarrollo de Aplicaciones Nativas en Xamarin Forms"
+                            Padding="0,10"
+                            LineHeight="1.5" />
+                    <!-- 3 - Image Book Autor -->
+                    <Image  Grid.Column="0"
+                            Grid.Row="4"
+                            Grid.RowSpan="2"
+                            Source="Olgat"
+                            VerticalOptions="Start"
+                            HorizontalOptions="Start"
+                            WidthRequest="60" />
+                    <!-- 4 - Informacion -->
+                    <Label  Grid.Column="1"
+                            Grid.Row="4"
+                            Text="Olga Lopez"
+                            FontAttributes="Bold"
+                            VerticalOptions="End"
+                            HorizontalOptions="Start"
+                            Padding="10,0,0,0" />
+                    <!-- 5 - Informacion + -->
+                    <Label  Grid.Column="1"
+                            Grid.Row="5"
+                            Text="Microsoft Developer"
+                            TextColor="Silver"
+                            FontAttributes="Bold"
+                            FontSize="10"
+                            VerticalOptions="End"
+                            HorizontalOptions="Start"
+                            Padding="10,0,0,0" />
+                </Grid>
+                </ScrollView>
+            </Frame>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

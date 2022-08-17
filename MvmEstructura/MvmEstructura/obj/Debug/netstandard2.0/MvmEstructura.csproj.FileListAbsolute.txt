@@ -1,0 +1,17 @@
+C:\Users\Armando\Desktop\Xamarin_Proyectos\MvmEstructura\MvmEstructura\bin\Debug\netstandard2.0\MvmEstructura.deps.json
+C:\Users\Armando\Desktop\Xamarin_Proyectos\MvmEstructura\MvmEstructura\bin\Debug\netstandard2.0\MvmEstructura.dll
+C:\Users\Armando\Desktop\Xamarin_Proyectos\MvmEstructura\MvmEstructura\bin\Debug\netstandard2.0\MvmEstructura.pdb
+C:\Users\Armando\Desktop\Xamarin_Proyectos\MvmEstructura\MvmEstructura\obj\Debug\netstandard2.0\MvmEstructura.csproj.AssemblyReference.cache
+C:\Users\Armando\Desktop\Xamarin_Proyectos\MvmEstructura\MvmEstructura\obj\Debug\netstandard2.0\MvmEstructura.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Armando\Desktop\Xamarin_Proyectos\MvmEstructura\MvmEstructura\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Armando\Desktop\Xamarin_Proyectos\MvmEstructura\MvmEstructura\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Armando\Desktop\Xamarin_Proyectos\MvmEstructura\MvmEstructura\obj\Debug\netstandard2.0\Vistas\Pagina1.xaml.g.cs
+C:\Users\Armando\Desktop\Xamarin_Proyectos\MvmEstructura\MvmEstructura\obj\Debug\netstandard2.0\MvmEstructura.AssemblyInfoInputs.cache
+C:\Users\Armando\Desktop\Xamarin_Proyectos\MvmEstructura\MvmEstructura\obj\Debug\netstandard2.0\MvmEstructura.AssemblyInfo.cs
+C:\Users\Armando\Desktop\Xamarin_Proyectos\MvmEstructura\MvmEstructura\obj\Debug\netstandard2.0\MvmEstructura.csproj.CoreCompileInputs.cache
+C:\Users\Armando\Desktop\Xamarin_Proyectos\MvmEstructura\MvmEstructura\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Armando\Desktop\Xamarin_Proyectos\MvmEstructura\MvmEstructura\obj\Debug\netstandard2.0\MvmEstructura.dll
+C:\Users\Armando\Desktop\Xamarin_Proyectos\MvmEstructura\MvmEstructura\obj\Debug\netstandard2.0\refint\MvmEstructura.dll
+C:\Users\Armando\Desktop\Xamarin_Proyectos\MvmEstructura\MvmEstructura\obj\Debug\netstandard2.0\MvmEstructura.pdb
+C:\Users\Armando\Desktop\Xamarin_Proyectos\MvmEstructura\MvmEstructura\obj\Debug\netstandard2.0\ref\MvmEstructura.dll
+C:\Users\Armando\Desktop\Xamarin_Proyectos\MvmEstructura\MvmEstructura\obj\Debug\netstandard2.0\Vistas\Pagina2.xaml.g.cs

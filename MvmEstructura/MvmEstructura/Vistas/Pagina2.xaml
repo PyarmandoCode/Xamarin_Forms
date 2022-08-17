@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MvmEstructura.Vistas.Pagina2"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <Grid BackgroundColor="Aquamarine">
+            <Image Source="https://icones.pro/wp-content/uploads/2021/06/icone-fleche-gauche-noir.png"
+                   HeightRequest="50"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Start"
+                   Margin="10">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding Volvercommand}" />
+                </Image.GestureRecognizers>
+            </Image>
+            <CollectionView ItemsSource="{Binding listadiscos}"
+                            VerticalOptions="Center"
+                            Margin="10,80,20,0"
+                            x:Name="listadiscos">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical"
+                                     Span="1"
+                                     VerticalItemSpacing="20" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame CornerRadius="15"
+                               BackgroundColor="#00de87">
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="{Binding imagen}"
+                                       HeightRequest="100" />
+                                <Label Text="{Binding nombre}"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"
+                                       FontSize="20" />
+                            </StackLayout>
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding Path=BindingContext.Alertacommand,Source={x:Reference listadiscos} }" CommandParameter="{Binding .}" />
+                            </Frame.GestureRecognizers>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App.Book.Views.MainPage">
+    <ContentPage.Content>
+        <!--Estructura de la app -->
+        <Grid ColumnDefinitions="*,*"
+              RowDefinitions="Auto,Auto,Auto,*"
+              BackgroundColor="Yellow">
+            <!--1-Header -->
+            <Image Grid.Column="0"
+                   Grid.Row="0"
+                   Source="BookWormLogo"
+                   HeightRequest="50"
+                   HorizontalOptions="Start"
+                   VerticalOptions="Start"
+                   Margin="{OnPlatform iOS='30,60,0,0',Android='30,20,0,0'}" />
+            <Button Grid.Column="1"
+                    Grid.Row="0"
+                    CornerRadius="16"
+                    Margin="0,20,25,0"
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    VerticalOptions="Start"
+                    ImageSource="Close"
+                    HorizontalOptions="End" />
+            <!--2-Main -->
+            <Image Grid.Column="0"
+                   Grid.Row="0"
+                   Grid.ColumnSpan="2"
+                   Source="WomenBG"
+                   VerticalOptions="Start"
+                   HeightRequest="280"
+                   TranslationY="60" />
+            <!--3-Colores de la Marca -->
+            <Frame  Grid.Column="0"
+                    Grid.Row="0"
+                    Grid.ColumnSpan="2"
+                    HasShadow="False"
+                    TranslationY="65">
+                <Frame.Background>
+                    <LinearGradientBrush EndPoint="0,1">
+                        <GradientStop Color="Transparent"
+                                      Offset="0.6" />
+                        <GradientStop Color="#e4e4e4"
+                                      Offset="0.9" />
+                    </LinearGradientBrush>
+                </Frame.Background>
+            </Frame>
+            <!--4-Titulo y Descripcion -->
+            <Label Grid.Column="0"
+                   Grid.Row="1"
+                   Grid.ColumnSpan="2"
+                   Text="Leer es Un Placer"
+                   Margin="25,-10,0,0"
+                   FontSize="40"
+                   FontAttributes="Bold"
+                   CharacterSpacing="3" />
+            <Label Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   Grid.Row="2"
+                   Text="Venta de Libros Online Sobre Programacion"
+                   FontSize="20"
+                   TextColor="#9196a6"
+                   Margin="25,20,0,35" />
+            <!--5-Cards -->
+            <Frame  Grid.Row="3"
+                    Grid.Column="0"
+                    Margin="25,0,5,30"
+                    HasShadow="False"
+                    CornerRadius="20"
+                    BackgroundColor="#3BC4E5">
+                <Label TextColor="White"
+                       VerticalTextAlignment="Center">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Programacion"
+                                  FontAttributes="Bold"
+                                  FontSize="22" />
+                            <Span Text=" Front"
+                                  FontAttributes="Bold"
+                                  FontSize="20" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </Frame>
+            <Frame  Grid.Row="3"
+                    Grid.Column="1"
+                    Margin="5,0,25,30"
+                    HasShadow="False"
+                    CornerRadius="20"
+                    BackgroundColor="#fe6954">
+                <Label TextColor="White"
+                       VerticalTextAlignment="Center">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Programacion"
+                                  FontSize="23" />
+                            <Span Text=" Back" 
+                                  FontSize="20"
+                                  />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </Frame>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

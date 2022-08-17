@@ -1,0 +1,17 @@
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Cambista\App.Cambista\bin\Debug\netstandard2.0\App.Cambista.deps.json
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Cambista\App.Cambista\bin\Debug\netstandard2.0\App.Cambista.dll
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Cambista\App.Cambista\bin\Debug\netstandard2.0\App.Cambista.pdb
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Cambista\App.Cambista\obj\Debug\netstandard2.0\App.Cambista.csproj.AssemblyReference.cache
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Cambista\App.Cambista\obj\Debug\netstandard2.0\App.Cambista.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Cambista\App.Cambista\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Cambista\App.Cambista\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Cambista\App.Cambista\obj\Debug\netstandard2.0\Vistas\Principal.xaml.g.cs
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Cambista\App.Cambista\obj\Debug\netstandard2.0\App.Cambista.AssemblyInfoInputs.cache
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Cambista\App.Cambista\obj\Debug\netstandard2.0\App.Cambista.AssemblyInfo.cs
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Cambista\App.Cambista\obj\Debug\netstandard2.0\App.Cambista.csproj.CoreCompileInputs.cache
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Cambista\App.Cambista\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Cambista\App.Cambista\obj\Debug\netstandard2.0\App.Cambista.dll
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Cambista\App.Cambista\obj\Debug\netstandard2.0\refint\App.Cambista.dll
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Cambista\App.Cambista\obj\Debug\netstandard2.0\App.Cambista.pdb
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Cambista\App.Cambista\obj\Debug\netstandard2.0\ref\App.Cambista.dll
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.Cambista\App.Cambista\obj\Debug\netstandard2.0\Vistas\Convertir.xaml.g.cs

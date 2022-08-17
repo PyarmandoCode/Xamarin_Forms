@@ -1,0 +1,15 @@
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.HolaMundo\App.HolaMundo\bin\Debug\netstandard2.0\App.HolaMundo.deps.json
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.HolaMundo\App.HolaMundo\bin\Debug\netstandard2.0\App.HolaMundo.dll
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.HolaMundo\App.HolaMundo\bin\Debug\netstandard2.0\App.HolaMundo.pdb
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.HolaMundo\App.HolaMundo\obj\Debug\netstandard2.0\App.HolaMundo.csproj.AssemblyReference.cache
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.HolaMundo\App.HolaMundo\obj\Debug\netstandard2.0\App.HolaMundo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.HolaMundo\App.HolaMundo\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.HolaMundo\App.HolaMundo\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.HolaMundo\App.HolaMundo\obj\Debug\netstandard2.0\App.HolaMundo.AssemblyInfoInputs.cache
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.HolaMundo\App.HolaMundo\obj\Debug\netstandard2.0\App.HolaMundo.AssemblyInfo.cs
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.HolaMundo\App.HolaMundo\obj\Debug\netstandard2.0\App.HolaMundo.csproj.CoreCompileInputs.cache
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.HolaMundo\App.HolaMundo\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.HolaMundo\App.HolaMundo\obj\Debug\netstandard2.0\App.HolaMundo.dll
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.HolaMundo\App.HolaMundo\obj\Debug\netstandard2.0\refint\App.HolaMundo.dll
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.HolaMundo\App.HolaMundo\obj\Debug\netstandard2.0\App.HolaMundo.pdb
+C:\Users\Armando\Desktop\Xamarin_Proyectos\App.HolaMundo\App.HolaMundo\obj\Debug\netstandard2.0\ref\App.HolaMundo.dll

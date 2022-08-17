@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MvmEstructura.Vistas.Pagina1"
+             BackgroundColor="Azure"
+             Title="Model View Model">
+    <ContentPage.Content>
+        <Grid BackgroundColor="PaleGoldenrod">
+            <StackLayout VerticalOptions="Center">
+                <StackLayout Margin="20,35,20,25">
+                    <Label  Text="Numero 1"
+                            TextColor="Black"
+                            FontAttributes="Bold"
+                            VerticalOptions="Center" />
+                    <Entry  Placeholder="Escriba su Numero"
+                            PlaceholderColor="Black"
+                            HorizontalOptions="StartAndExpand"
+                            TextColor="Black"
+                            Keyboard="Numeric"
+                            Text="{Binding Numero1}" />
+                    <Label  Text="Numero 2"
+                            TextColor="Black"
+                            FontAttributes="Bold"
+                            VerticalOptions="Center" />
+                    <Entry  Placeholder="Escriba su Numero"
+                            PlaceholderColor="Black"
+                            HorizontalOptions="StartAndExpand"
+                            TextColor="Black"
+                            Keyboard="Numeric"
+                            Text="{Binding Numero2}" />
+                    <Button  Text="Sumar"
+                             VerticalOptions="Center"
+                             HorizontalOptions="Center"
+                             CornerRadius="20"
+                             Command="{Binding Proceso_Arit_Command}" />
+                    <Label  Text="{Binding Respuesta}"
+                            FontAttributes="Bold"
+                            FontSize="40"
+                            HorizontalOptions="Center" />
+                    <StackLayout HorizontalOptions="Center"
+                                 Orientation="Horizontal">
+                        <Label Text="Seleccione su Area"
+                               FontAttributes="Bold"
+                               VerticalOptions="Center"
+                               FontSize="22" />
+                        <Picker TextColor="Black"
+                                HorizontalOptions="FillAndExpand"
+                                Title="Seleccione"
+                                TitleColor="Black"
+                                SelectedItem="{Binding SeleccionarCombo}">
+                            <Picker.ItemsSource>
+                                <x:Array Type="{x:Type x:String}">
+                                    <x:String>Administrador</x:String>
+                                    <x:String>Operador</x:String>
+                                    <x:String>Gerencia</x:String>
+                                    <x:String>Contabilidad</x:String>
+                                    <x:String>Otros</x:String>
+                                </x:Array>
+                            </Picker.ItemsSource>
+                        </Picker>
+                    </StackLayout>
+                    <Button Text="Seleccionado"
+                            VerticalOptions="Center"
+                            HorizontalOptions="Center"
+                            CornerRadius="20"
+                            Margin="0,60,0,0"
+                            Command="{Binding Combocommand}" />
+                    <Button Text="Pagina 2"
+                            VerticalOptions="Center"
+                            HorizontalOptions="Center"
+                            CornerRadius="20"
+                            Margin="0,60,0,0"
+                            Command="{Binding ir_pagina2_Command}" />
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
